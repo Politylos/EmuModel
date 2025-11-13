@@ -1,0 +1,260 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "88a720cf-f75e-4fa3-a490-16ebff755889")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 100.33 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4850e3ae-2379-4669-9490-0a6ecbb50f66")
+	)
+	(wire
+		(pts
+			(xy 100.33 85.09) (xy 106.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58952226-d93c-4401-b0da-af482aaeb916")
+	)
+	(wire
+		(pts
+			(xy 100.33 82.55) (xy 106.68 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f44fbe1-0bc6-45f0-b165-0d8ab14460c1")
+	)
+	(wire
+		(pts
+			(xy 100.33 77.47) (xy 106.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89094323-81ec-43c1-8533-86ed11a309f0")
+	)
+	(sheet
+		(at 19.05 16.51)
+		(size 34.29 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b0170de-ea2a-45e3-9a1d-f042c123c66d")
+		(property "Sheetname" "Power"
+			(at 19.05 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 19.05 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_board"
+				(path "/88a720cf-f75e-4fa3-a490-16ebff755889"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 69.85)
+		(size 27.94 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf9aacd4-f294-4000-9108-0ab2a8912f22")
+		(property "Sheetname" "micro"
+			(at 106.68 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "micro.kicad_sch"
+			(at 106.68 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Motor_Signal_BACK" input
+			(at 106.68 80.01 180)
+			(uuid "d0e5409f-37ec-4bb3-a12d-19dd5f031bf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Motor_Signal_FWD" input
+			(at 106.68 77.47 180)
+			(uuid "06bde339-6709-447a-8a6a-f5b5cc2b5a67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Motor_EN" input
+			(at 106.68 82.55 180)
+			(uuid "cbbb334d-665e-4766-823d-8a24b92d0a57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Motor_Error" input
+			(at 106.68 85.09 180)
+			(uuid "fc5de002-4326-49fa-b0c9-4ad1af804c69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "kicad_board"
+				(path "/88a720cf-f75e-4fa3-a490-16ebff755889"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 71.12)
+		(size 49.53 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3a28d54-f0a4-4a53-bd6c-3cf646a38518")
+		(property "Sheetname" "Motor Controller"
+			(at 50.8 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MotorController.kicad_sch"
+			(at 50.8 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Motor_Signal_BACK" input
+			(at 100.33 80.01 0)
+			(uuid "a880691a-6103-4edd-8263-4f200ff27ece")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor_Signal_FWD" input
+			(at 100.33 77.47 0)
+			(uuid "4a6369be-205c-4b3a-861b-bea65a24451e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor_EN" input
+			(at 100.33 82.55 0)
+			(uuid "323f56fa-47ac-4523-964c-39145d89585e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor_Error" input
+			(at 100.33 85.09 0)
+			(uuid "ef2263db-caa0-42d6-b57c-64e47ffc28cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "kicad_board"
+				(path "/88a720cf-f75e-4fa3-a490-16ebff755889"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
